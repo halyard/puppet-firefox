@@ -1,0 +1,29 @@
+{
+  "name": "halyard-firefox",
+  "version": "0.0.1",
+  "author": "Les Aker",
+  "license": "MIT",
+  "summary": "Configure firefox via Boxen",
+  "source": "https://github.com/halyard/puppet-firefox",
+  "project_page": "https://github.com/halyard/puppet-firefox",
+  "issues_url": "https://github.com/halyard/puppet-firefox/issues",
+  "dependencies": [
+    {
+      "name": "halyard/homebrew",
+      "version_requirement": "1.13.x"
+    },
+    {
+      "name": "halyard/brewcask",
+      "version_requirement": "0.1.x"
+    }
+  ],
+  "operatingsystem_support": [
+    {
+      "operatingsystem": "Darwin",
+      "operatingsystemmajrelease": [
+        "14",
+        "15"
+      ]
+    }
+  ]
+}
